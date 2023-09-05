@@ -9,7 +9,7 @@ Bem-vindo à página inicial do MinimaliLife, onde você pode explorar o poder d
 - **Sobre:** Este projeto apresenta a página inicial do MinimaliLife, um site dedicado ao minimalismo.
 - **Benefícios do Minimalismo:** Saiba por que simplificar sua vida pode ser transformador.
 - **Explore:** Descubra recursos sobre minimalismo, clareza e foco.
-- **eBook:** Baixe nosso eBook gratuito sobre minimalismo [aqui](link-para-o-ebook).
+- **eBook:** Baixe o eBook gratuito sobre minimalismo [aqui](link-para-o-ebook).
 - **Entre em Contato:** Fale conosco para saber mais.
 
 ## Capturas de Tela
@@ -29,11 +29,11 @@ Se você deseja contribuir para este projeto, siga estas etapas:
 3. Faça suas melhorias e modificações.
 4. Envie um pull request para revisão.
 
-Ficaremos felizes em receber contribuições!
+Ficarei feliz em receber contribuições!
 
 ## Autor
 
-- [Seu Nome](https://github.com/seu-username)
+- [Wesley Banagouro](https://github.com/WesleyBanagouro)
 
 ## Licença
 
@@ -41,5 +41,5 @@ Este projeto está sob a licença MIT - veja o arquivo [LICENSE](LICENSE) para o
 
 ---
 
-**Apreciamos sua visita à página inicial do MinimaliLife! Não se esqueça de baixar nosso eBook gratuito sobre minimalismo.**
+**Nota: Este projeto é parte de um estudo pessoal sobre desenvolvimento web e não tem fins comerciais. Apreciamos sua visita à página inicial do MinimaliLife e esperamos que encontre as informações valiosas. Não se esqueça de baixar nosso eBook gratuito sobre minimalismo.**
 
