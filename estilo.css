@@ -3,10 +3,19 @@
     padding: 0;
 }
 
+main {
+    background-color: burlywood;
+    margin: auto;
+}
+
+section {
+    max-width: 1700px;
+    margin: auto;
+}
+
 /*Estilos para todas as seções*/
 .sections {
     background-color: brown;
-    margin: 10px;
     padding: 10px;
     border-radius: 6px;
 }
