@@ -32,6 +32,7 @@ h1 {
     background-color: brown;
     padding: 10px;
     border-radius: 6px;
+    margin: 5px 0 5px 0;
 }
 
 #container-first {
@@ -83,6 +84,8 @@ h1 {
     font-size: 1.1em;
     max-width: 400px;
     color: white;
+    text-indent: 20px;
+    text-align: justify;
 }
 
 #second-text{
@@ -107,4 +110,26 @@ h1 {
     justify-content: center;
     margin: 20px 0 0 40px;
     font-size: 1.1em;
+}
+
+#container-ebook {
+    background-color: aqua;
+    display: flex;
+}
+
+#ebook {
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    max-width: 200px;
+}
+
+#ebook img{
+    height: auto;
+    width: 100%;
+    margin: auto;
+    display: block;
+    align-items: center;
 }
