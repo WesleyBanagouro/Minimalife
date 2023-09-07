@@ -2,6 +2,8 @@
 
 :root {
     --azul-astronauta: #11325B;
+    --minimalife: #E8E9EB;
+    --letra-minimalife: #423F3A;
 }
 
 * {
@@ -112,18 +114,22 @@ h1 {
     font-size: 1.1em;
 }
 
+/*Estilo para o texto da segunda seção*/
+#section-ebook{
+    background-color: var(--minimalife);
+}
+
 #container-ebook {
-    background-color: aqua;
     display: flex;
+    align-items: center;
 }
 
 #ebook {
-    background-color: blue;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 20px;
-    max-width: 200px;
+    max-width: 300px;
 }
 
 #ebook img{
@@ -132,4 +138,54 @@ h1 {
     margin: auto;
     display: block;
     align-items: center;
+    border: 0.5px solid black;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+#ebook-text {
+    margin: 50px;
+    height: 600px;
+}
+
+#ebook-text h1{
+    margin: 60px;
+    border-bottom: 3px solid black;
+}
+
+#ebook-text p{
+    margin: 60px;
+    max-width: 600px;
+    text-align: justify;
+    text-indent: 20px;
+    font-size: 1.3em;
+}
+
+#ebook-text ul{
+    margin: 0px 0px 0px 120px;
+    width: 600px;
+    font-size: 1.3em;
+}
+
+#ebook-text li{
+    font-size: 1em;
+    margin: 40px 0 40px 0;
+}
+
+#download {
+    background-color: black;
+    margin: 100px 60px 60px 60px;
+    width: 200px;
+    text-align: center;
+    color: white;
+    height: 60px;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    border-radius: 10px;
+}
+
+#button-download {
+    text-decoration: none;
+    color: white;
+    text-align: center;
 }
