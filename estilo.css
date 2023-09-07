@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*Estilos para todas as seções*/
+.sections {
+    background-color: brown;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+#container-first {
+    display: flex;
+    background-color: aqua;
+}
+
+/*Estilo para o texto da primeira seção*/
+#introduction {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: blueviolet;
+}
+
+#astronaut-img img{
+    size: 300px;
+}
