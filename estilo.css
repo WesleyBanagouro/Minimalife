@@ -9,6 +9,7 @@ main {
 }
 
 section {
+    min-width: 300px;
     max-width: 1700px;
     margin: auto;
 }
@@ -29,4 +30,9 @@ section {
 #introduction {
     font-family: Arial, Helvetica, sans-serif;
     background-color: blueviolet;
+}
+
+#astronaut-section img{
+    width: 100%;
+    min-width: 300px;
 }
