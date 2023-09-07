@@ -128,7 +128,7 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px;
+    padding: 10px;
     max-width: 300px;
 }
 
@@ -143,37 +143,37 @@ h1 {
 }
 
 #ebook-text {
-    margin: 50px;
+    margin: 10px;
     height: 600px;
 }
 
 #ebook-text h1{
-    margin: 60px;
+    margin: 60px 60px 30px 60px;
     border-bottom: 3px solid black;
 }
 
 #ebook-text p{
-    margin: 60px;
-    max-width: 600px;
+    margin: 30px 60px 30px 60px;
+    max-width: 400px;
     text-align: justify;
     text-indent: 20px;
-    font-size: 1.3em;
+    font-size: 1.1em;
 }
 
 #ebook-text ul{
     margin: 0px 0px 0px 120px;
-    width: 600px;
-    font-size: 1.3em;
+    max-width: 400px;
+    font-size: 1.1em;
 }
 
 #ebook-text li{
     font-size: 1em;
-    margin: 40px 0 40px 0;
+    margin: 20px 0 20px 0;
 }
 
 #download {
     background-color: black;
-    margin: 100px 60px 60px 60px;
+    margin: 140px 60px 60px 60px;
     width: 200px;
     text-align: center;
     color: white;
