@@ -35,7 +35,6 @@ section {
 
 /* Estilos para todas as seções */
 .sections {
-    background-color: brown;
     padding: 10px;
     border-radius: 6px;
     margin: 3px 0 3px 0;
@@ -265,7 +264,25 @@ section {
       
     
 }
- 
+
+/* Estilos para a terceira seção */
+
+#tips-section {
+    background-color: var(--minimalife);
+    padding: 10px;
+}
+
+#tips-container {
+    background-color: #11325B;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.tip {
+    background-color: antiquewhite;
+    margin: 10px;
+}
 
 /* Cores */
 .white-text {
