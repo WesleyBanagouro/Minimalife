@@ -5,6 +5,7 @@
     --azul-astronauta: #11325B;
     --minimalife: #E8E9EB;
     --letra-minimalife: #423F3A;
+    --minimalife-logo: #113545;
 }
 
 /* Estilos globais */
@@ -37,13 +38,66 @@ section {
     background-color: brown;
     padding: 10px;
     border-radius: 6px;
-    margin: 5px 0 5px 0;
+    margin: 3px 0 3px 0;
 }
 
 #container-first {
     display: flex;
     align-items: center;
     justify-content: space-around;
+}
+
+/* Estilo para a navbar */
+#container-navbar {
+    background-color: #113545;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+#container-navbar a{
+    text-decoration: none;
+    color: white;
+}
+
+
+#container-navbar a:hover{
+    color: gray;
+    transition: 0.3s ease;
+}
+
+#logo {
+    align-items: center;
+    display: flex;
+    height: 100px;
+    margin-left: 200px;
+}
+
+#logo img{
+    border-radius: 10px;
+}
+
+#links {
+    display: inline-block;
+    margin-right: 200px;
+
+}
+
+#links ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 5px;
+}
+
+#links ul li{
+    padding: 0px 10px 0px 10px;
+}
+
+#links ul li:not(:last-child) {
+    border-right :2px solid white;
 }
 
 /* Estilo para o texto da primeira seção */
@@ -218,25 +272,22 @@ section {
    color:white;  
 }
 
-
 /* Adicionando media queries para responsividade */
 @media screen and (max-width:600px) {
-   #container-first,#container-ebook{
-       flex-direction: column;  
-   }
-   
-   #ebook,#ebook-text,#astronaut-img,#introduction{
-       max-width:none;  
-   }
-   
-   #download{
-       width:auto;  
-   }
-   
-   #ebook-text ul{
-       margin-left:auto;  
-   }
-   
-}
-
-
+    #container-first,#container-ebook{
+        flex-direction: column;  
+    }
+    
+    #ebook,#ebook-text,#astronaut-img,#introduction{
+        max-width:none;  
+    }
+    
+    #download{
+        width:auto;  
+    }
+    
+    #ebook-text ul{
+        margin-left:auto;  
+    }
+    
+ }
