@@ -273,15 +273,44 @@ section {
 }
 
 #tips-container {
-    background-color: #11325B;
+    background-color: var(--minimalife);
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
 .tip {
-    background-color: antiquewhite;
     margin: 10px;
+    padding: 10px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.tip-icon {
+    margin: 5px;
+}
+
+.tip-text {
+    max-height: 70px;
+    margin: 5px;
+    border-top: 3px solid black;
+    padding-top: 10px;
+}
+
+.tip-text h5{
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.tip-text p{
+    text-align: justify;
+    font-size: 0.97em;
+}
+
+.tip-icon span{
+    font-size: 150px;
 }
 
 /* Cores */
