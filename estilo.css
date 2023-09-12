@@ -242,7 +242,7 @@ section {
     
 }
  
- #download {
+ .download {
       background-color:black ; 
       margin :100px ; 
       width : 200px ; 
@@ -252,12 +252,15 @@ section {
       display:flex ; 
       justify-content:center ;  
       align-items:center ;  
-      border-radius :10px ; 
-      
-    
+      border-radius :10px ;  
+}
+
+.download:hover {
+    background-color: rgb(58, 58, 58);
+    transition: 0.3s ease;
 }
  
- #button-download {
+ .button-download {
       text-decoration:none ; 
       color:white ; 
       text-align:center ; 
@@ -270,10 +273,17 @@ section {
 #tips-section {
     background-color: var(--minimalife);
     padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#title-container {
+    font-size: 0.9em;
+
 }
 
 #tips-container {
-    background-color: var(--minimalife);
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -316,6 +326,61 @@ section {
 /* Cores */
 .white-text {
    color:white;  
+}
+
+/* Estilos para a quarta seção */
+
+#newsletter {
+    background-color: var(--minimalife);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#newsletter-container {
+    font-size: 0.8em;
+    margin: 20px;
+}
+
+#input-container {
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#input-container p, input{
+    margin: 20px;
+}
+
+
+#input-container input {
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 0.8em;
+}
+
+#newsletter-button div{
+    margin: 0;
+    font-size: 0.8em;
+}
+
+#newsletter-button {
+    margin: 0;
+    width: 70px;
+    height: 30px;
+}
+
+#newsletter-button:hover {
+    cursor: pointer;
+}
+
+#button-container {
+    display: flex;
+    justify-content: center;
 }
 
 /* Adicionando media queries para responsividade */
