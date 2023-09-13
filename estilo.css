@@ -53,7 +53,13 @@ section {
     top: 0;
     width: 100%;
   }
-  
+
+  /* Estilo inicial da barra de navegação (transparente) */
+#navbar {
+    background-color: transparent;
+    transition: background-color 0.3s ease; /* Adiciona uma transição suave */
+}
+
 #container-navbar {
     background-color: #113545;
     border-radius: 6px;

@@ -26,3 +26,5 @@ botao.addEventListener('click', clicou);
 
   window.addEventListener('scroll', fixarNavbar);
 
+  
+
