@@ -46,19 +46,6 @@ section {
     justify-content: space-around;
 }
 
-/* Estilo para a navbar */
-
-.navbar-fixed {
-    position: fixed;
-    top: 0;
-    width: 100%;
-  }
-
-  /* Estilo inicial da barra de navegação (transparente) */
-#navbar {
-    background-color: transparent;
-    transition: background-color 0.3s ease; /* Adiciona uma transição suave */
-}
 
 #container-navbar {
     background-color: #113545;
@@ -273,13 +260,18 @@ section {
     transition: 0.3s ease;
 }
  
+/* Redefinindo todos os estilos para valores padrão */
  .button-download {
-      text-decoration:none ; 
-      color:white ; 
-      text-align:center ; 
+    background: none;
+    border: none;
+    margin: 0;
+    padding: 0;
+    font: inherit;
+    color: inherit;
+    cursor: pointer;
+
+      }
       
-    
-}
 
 /* Estilos para a terceira seção */
 
@@ -416,7 +408,7 @@ section {
 }
 
 #container-footer a{
-    padding: 20px;
+    padding: 30px;
     margin: auto;
 }
 
@@ -446,9 +438,20 @@ section {
     color: white;
 }
 
-#privacy a{
-    text-decoration: none;
+#privacy {
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+}
+
+#privacy p{
     color: white;
+    padding: 7px;
+
+}
+
+#politica {
+    border-right: 2px white solid;
 
 }
 
