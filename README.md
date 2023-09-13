@@ -4,6 +4,8 @@
 
 Bem-vindo à página inicial do MinimaliLife, onde você pode explorar o poder do minimalismo e descobrir como viver com menos pode trazer mais significado para a sua vida.
 
+- [Minimalife](https://wesleybanagouro.github.io/Minimalife/)
+
 ## Visão Geral
 
 - **Sobre:** Este projeto apresenta a página inicial do MinimaliLife, um site dedicado ao minimalismo.
@@ -15,10 +17,10 @@ Bem-vindo à página inicial do MinimaliLife, onde você pode explorar o poder d
 ## Capturas de Tela
 
 ### Página Inicial
-![Página Inicial](img/home.png)
+![Página Inicial](imagens/pagina-inicial.jpg)
 
 ### Benefícios do Minimalismo
-![Benefícios do Minimalismo](img/benefits.png)
+![Benefícios do Minimalismo](imagens/beneficios-print.png)
 
 ## Como Contribuir
 
