@@ -8,3 +8,21 @@ function clicou() {
 }
 
 botao.addEventListener('click', clicou);
+
+
+  // Fixar barra de navegação
+  var navbar = document.getElementById('navbar');
+
+
+  var navbarOffset = navbar.offsetTop;
+
+  function fixarNavbar() {
+    if (window.pageYOffset >= navbarOffset) {
+      navbar.classList.add('navbar-fixed');
+    } else {
+      navbar.classList.remove('navbar-fixed');
+    }
+  }
+
+  window.addEventListener('scroll', fixarNavbar);
+

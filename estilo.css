@@ -47,6 +47,13 @@ section {
 }
 
 /* Estilo para a navbar */
+
+.navbar-fixed {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
 #container-navbar {
     background-color: #113545;
     border-radius: 6px;
@@ -367,13 +374,13 @@ section {
 
 #newsletter-button div{
     margin: 0;
-    font-size: 0.8em;
+    font-size: 1.1em;
 }
 
 #newsletter-button {
     margin: 0;
-    width: 70px;
-    height: 30px;
+    width: 120px;
+    height: 40px;
 }
 
 #newsletter-button:hover {
@@ -384,6 +391,61 @@ section {
     display: flex;
     justify-content: center;
 }
+
+/* Estilos para o rodapé */
+
+#footer {
+    background-color: var(--minimalife-logo);
+}
+
+#container-footer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#logo-footer {
+    display: flex;
+}
+
+#container-footer a{
+    padding: 20px;
+    margin: auto;
+}
+
+#container-footer img{
+    border-radius: 10px;
+}
+
+#social-media {
+    display: inline-block;
+    margin: 10px;
+    border: white 2px solid;
+    border-radius: 5px;
+}
+
+.fa-brands {
+    color: white;
+    font-size: 2em;
+    padding: 10px;
+    justify-content: center;
+}
+
+#copyright-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1500px;
+    color: white;
+}
+
+#privacy a{
+    text-decoration: none;
+    color: white;
+
+}
+
 
 /* Adicionando media queries para responsividade */
 @media screen and (max-width:600px) {
