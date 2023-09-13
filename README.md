@@ -4,7 +4,8 @@
 
 Bem-vindo à página inicial do MinimaliLife, onde você pode explorar o poder do minimalismo e descobrir como viver com menos pode trazer mais significado para a sua vida.
 
-- [Minimalife](https://wesleybanagouro.github.io/Minimalife/){:target="_blank"}
+- <a href="https://wesleybanagouro.github.io/Minimalife/" target="_blank">Minimalife</a>
+
 
 ## Visão Geral
 
