@@ -1,6 +1,6 @@
 # MinimaliLife Landing Page
 
-![MinimaliLife Logo](img/logo.png)
+![MinimaliLife Logo](imagens/minimalife-logo-navbar.jpeg)
 
 Bem-vindo à página inicial do MinimaliLife, onde você pode explorar o poder do minimalismo e descobrir como viver com menos pode trazer mais significado para a sua vida.
 
