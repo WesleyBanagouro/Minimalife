@@ -580,6 +580,24 @@ nav, main {
 
 #copyright-footer p{
     font-size: 0.5em;
+    text-align: center;
+
+}
+
+#container-navbar {
+    background-color: var(--minimalife-logo);
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+
+}
+
+#logo {
+    align-items: center;
+    display: flex;
+    height: 100px;
+    margin: 20px;
 
 }
 
