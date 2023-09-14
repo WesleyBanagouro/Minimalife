@@ -37,6 +37,12 @@ section {
     padding: 10px;
     border-radius: 6px;
     margin: 3px 0 3px 0;
+    max-width: 100%;
+}
+
+main, nav {
+    max-width: 1200px;
+    margin: auto;
 }
 
 #container-first {
@@ -100,7 +106,6 @@ section {
 
 /* Estilo para o texto da primeira seção */
 #introduction {
-    max-width: 700px;
     padding: 20px;
 }
 
@@ -433,19 +438,19 @@ section {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 1500px;
     color: white;
+    width: 100%;
 }
 
 #privacy {
     margin: 0px;
     display: flex;
     flex-direction: row;
-}
+} 
 
 #privacy p{
     color: white;
-    padding: 7px;
+    padding: 0px 10px 0px 10px;
 
 }
 
