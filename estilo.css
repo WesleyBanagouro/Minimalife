@@ -22,28 +22,34 @@ h1 {
 }
 
 /* Layout */
-main {
-    margin: auto;
+
+body {
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: blue;
 }
+
+main {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: red;
+}
+
+
 
 section {
     min-width: 300px;
     max-width: 2000px;
     margin: auto;
-}
-
-/* Estilos para todas as seções */
-.sections {
     padding: 10px;
     border-radius: 6px;
     margin: 3px 0 3px 0;
-    max-width: 100%;
+
 }
 
-main, nav {
-    max-width: 1200px;
-    margin: auto;
-}
+/* Estilos para todas as seções */
 
 #container-first {
     display: flex;
