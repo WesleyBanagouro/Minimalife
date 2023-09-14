@@ -9,6 +9,10 @@ function clicou() {
 
 botao.addEventListener('click', clicou);
 
+document.querySelector('.hamburger').addEventListener('click', function() {
+  document.querySelector('#links').style.display = 
+      document.querySelector('#links').style.display === 'none' ? 'block' : 'none';
+});
 
   
 

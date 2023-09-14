@@ -13,43 +13,38 @@
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
+    font-size: 16px; 
 }
+
 
 /* Tipografia */
 h1 {
     font-size: 2em;
 }
 
+
 /* Layout */
 
 body {
-    max-width: 100%;
-    margin: 0;
-    padding: 0;
-    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow-x: hidden;
 }
 
-main {
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    background-color: red;
+nav, main {
+    width: 100%; /* Para ocupar a largura completa do body */
+    max-width: 2000px; /* Define uma largura máxima para evitar que o conteúdo fique muito largo em telas grandes */
 }
 
 
-
-section {
-    min-width: 300px;
-    max-width: 2000px;
-    margin: auto;
+/* Estilos para todas as seções */
+.sections {
     padding: 10px;
     border-radius: 6px;
     margin: 3px 0 3px 0;
-
 }
-
-/* Estilos para todas as seções */
 
 #container-first {
     display: flex;
@@ -57,6 +52,13 @@ section {
     justify-content: space-around;
 }
 
+.hamburger {
+    display: none;
+}
+
+#links {
+    display: none;
+}
 
 #container-navbar {
     background-color: #113545;
@@ -146,8 +148,7 @@ section {
 
 #first-text p{
     align-items: center;
-    justify-content: center;
-    margin: 20px 0 0 20px;
+    justify-content: center;    
     font-size: 1.1em;
     max-width: 400px;
     color: white;
@@ -159,6 +160,7 @@ section {
 #second-text{
     padding: 20px;
     color: white;
+    
 }
 
 #second-text h1{
@@ -169,16 +171,15 @@ section {
 
 #second-text ul{
     align-items:center ;
-     justify-content:center ;
+    justify-content:center ;
     
 }
 
 #second-text ul li{
      align-items:center ;
      justify-content:center ;
-     margin :20px 0 0 40px ;
      font-size :1.1em ;
-    
+    width: auto;
 }
 
 
@@ -216,7 +217,8 @@ section {
 
 #ebook-text {
      margin :10px ;
-     height :600px ;
+     width: 100%;
+
     
 }
 
@@ -247,14 +249,14 @@ section {
  
  #ebook-text li{
       font-size :1em ; 
-      margin :20px ; 
+      width: auto;
       
     
 }
  
  .download {
       background-color:black ; 
-      margin :100px ; 
+      margin :20px ; 
       width : 200px ; 
       text-align:center ; 
       color:white ; 
@@ -355,9 +357,9 @@ section {
     padding: 30px;
 }
 
-#newsletter-container {
+.newsletter-container {
     font-size: 0.8em;
-    margin: 20px;
+    margin: 10px;
 }
 
 #input-container {
@@ -446,17 +448,20 @@ section {
     justify-content: space-between;
     color: white;
     width: 100%;
+
 }
 
 #privacy {
     margin: 0px;
     display: flex;
     flex-direction: row;
+
 } 
 
 #privacy p{
     color: white;
     padding: 0px 10px 0px 10px;
+
 
 }
 
@@ -480,8 +485,104 @@ section {
         width:auto;  
     }
     
-    #ebook-text ul{
-        margin-left:auto;  
+    .hamburger {
+        display: block;
     }
+
+    #links {
+        display: none;
+    }
+
+    #tips-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 1000px;
+    }
+
+    .tip-icon span{
+        font-size: 50px;
+    }
+
+    #tips-section {
+        background-color: var(--minimalife);
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 1200px;
+        
+    }
+
+    #input-container {
+        margin: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .newsletter-container {
+        font-size: 0.8em;
+        margin: 10px;
+        width: 100%;
+    }
+
+    #ebook-text {
+        margin :10px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+   }
+   
+   #ebook-text h1{
+        border-bottom :3px solid black ;
+        text-align: center;
+       
+   }
+   
+   #ebook-text p{
+    margin : 10px;
+    max-width :400px ;
+    text-align :justify ;
+    text-indent :20px ;
+    font-size :1.1em ;
+
+   
+}
+
+   #ebook-text ul{
+    margin :0px 0px 0px 20px ; 
+    max-width :400px ; 
+    font-size :1.1em ; 
     
- }
+  
+}
+
+   .download {
+    background-color:black ; 
+    text-align:center ; 
+    color:white ; 
+    height : 60px ; 
+    display:flex ; 
+    justify-content:center ;  
+    align-items:center ;  
+    border-radius :10px ;  
+}
+
+#container-footer a{
+    padding: 2px;
+    margin: auto;
+}
+
+#copyright-footer p{
+    font-size: 0.5em;
+
+}
+
+
+
+}
