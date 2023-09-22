@@ -493,7 +493,7 @@ nav, main {
         flex-direction: column;
         justify-content: space-between;
         width: 30px; /* Largura do botão */
-        height: 21px; /* Altura do botão */
+        height: 20px; /* Altura do botão */
         cursor: pointer; /* Mude o cursor para indicar interatividade */
         position: relative;
     }
