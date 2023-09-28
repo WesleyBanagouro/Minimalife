@@ -150,10 +150,10 @@ nav, main {
     align-items: center;
     justify-content: center;    
     font-size: 1.1em;
-    max-width: 400px;
+    max-width: 500px;
     color: white;
     text-indent: 20px;
-    text-align: justify;
+    text-align: left;
     margin: 20px;
 
 }
@@ -301,6 +301,7 @@ nav, main {
 
 #title-container {
     font-size: 0.9em;
+    text-align: center;
 
 }
 
@@ -324,7 +325,7 @@ nav, main {
 }
 
 .tip-text {
-    max-height: 70px;
+    max-width: 400px;
     margin: 5px;
     border-top: 3px solid black;
     padding-top: 10px;
@@ -458,6 +459,7 @@ nav, main {
     margin: 0px;
     display: flex;
     flex-direction: row;
+    text-align: justify;
 
 } 
 
@@ -473,9 +475,51 @@ nav, main {
 
 }
 
+@media screen and (max-width:1000px) {
+    #tips-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 1000px;
+    }
+
+    .tip-icon span{
+        font-size: 100px;
+    }
+
+    #copyright-footer p{
+        font-size: 10px;
+    }
+
+
+
+
+}
 
 /* Adicionando media queries para responsividade */
-@media screen and (max-width:600px) {
+@media screen and (max-width:630px) {
+    #copyright-footer p{
+
+        font-size: 100px;
+    
+    }
+    #social-media {
+        display: inline-block;
+        margin: 10px;
+        border: white 2px solid;
+        border-radius: 5px;
+    }
+
+    .fa-brands {
+        font-size: 20px;
+    }
+
+    #logo-footer img {
+        display: flex;
+        height: auto;
+        width: 50px;
+    }
+    
     #container-first,#container-ebook{
         flex-direction: column;  
     }
@@ -483,7 +527,31 @@ nav, main {
     #ebook,#ebook-text,#astronaut-img,#introduction{
         max-width:none;  
     }
+
+    #introduction p{
+        text-align: center;
+    }
+
+    #first-text {
+        text-align: center;
+    }
+
+    #second-text {
+        text-align: center;
+    }
     
+    #second-text ul {
+        list-style-type: none; /* Remove os marcadores de lista padrão */
+        text-align: center; /* Centraliza o texto */
+    }
+    
+    #second-text ul li::before {
+        content: '•'; /* Adiciona um novo 'marcador' antes de cada item da lista */
+        margin-right: 10px; /* Adiciona algum espaço entre o 'marcador' e o texto */
+        display: inline-block; /* Permite que o 'marcador' seja posicionado como qualquer outro texto */
+    }
+
+
     #download{
         width:auto;  
     }
@@ -510,7 +578,7 @@ nav, main {
     }
 
     .tip-icon span{
-        font-size: 50px;
+        font-size: 100px;
     }
 
     #tips-section {
@@ -609,6 +677,16 @@ nav, main {
     height: 100px;
     margin: 20px;
 
+}
+#ebook img{
+    height :auto ;
+    width : 50% ;
+    margin :auto ;
+    display :block ;
+    align-items :center ;
+    border :0.5px solid black ;
+    box-shadow :5px 5px 10px rgba(0,0,0,0.5) ;
+   
 }
 
 
