@@ -4,7 +4,7 @@ function clicou() {
   var nome = document.getElementById('nome-newsletter').value;
   var email = document.getElementById('email-newsletter').value;
 
-  alert(`Olá ${nome}. Obrigado por visitar meu site! O email não foi cadastrado, isso é apenas uma demonstração.`);
+  alert(`Olá ${nome}. Obrigado por visitar meu site. O email não foi cadastrado, isso é apenas uma demonstração.`);
 }
 
 botao.addEventListener('click', clicou);

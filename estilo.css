@@ -51,14 +51,9 @@ nav, main {
     align-items: center;
     justify-content: space-around;
 }
-
-.hamburger {
+ #burguer {
     display: none;
-}
-
-#links {
-    display: none;
-}
+ }
 
 #container-navbar {
     background-color: #113545;
@@ -103,6 +98,8 @@ nav, main {
     list-style: none;
     padding: 5px;
 }
+
+
 
 #links ul li{
     padding: 0px 10px 0px 10px;
@@ -491,6 +488,15 @@ nav, main {
         font-size: 10px;
     }
 
+    #links ul {
+        justify-content: center;
+        width: 300px;
+
+    }
+
+
+
+
 
 
 
@@ -498,8 +504,8 @@ nav, main {
 
 /* Adicionando media queries para responsividade */
 @media screen and (max-width:630px) {
-    #copyright-footer p{
 
+    #copyright-footer p{
         font-size: 100px;
     
     }
@@ -556,19 +562,41 @@ nav, main {
         width:auto;  
     }
     
-    .hamburger {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        width: 31px; /* Largura do botão */
-        height: 20px; /* Altura do botão */
-        cursor: pointer; /* Mude o cursor para indicar interatividade */
-        position: relative;
+    #links ul {
+        display: none;
     }
 
     #links {
-        display: none;
+        background-color: yellow;
     }
+
+    #burguer {
+        display: block;
+        cursor: pointer;
+        color: var(--minimalife);
+        font-size: 30px;
+        text-align: center;
+        margin: auto;
+
+    }
+
+    #container-navbar {
+        background-color: var(--minimalife-logo);
+        border-radius: 6px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        text-align: center;
+    
+    }
+
+    #burguer-box {
+        background-color: blue;
+        display: block;
+        width: 1000px;
+    }
+
+
 
     #tips-container {
         display: flex;
@@ -662,14 +690,7 @@ nav, main {
 
 }
 
-#container-navbar {
-    background-color: var(--minimalife-logo);
-    border-radius: 6px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 
-}
 
 #logo {
     align-items: center;
