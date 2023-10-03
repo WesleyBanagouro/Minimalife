@@ -491,7 +491,7 @@ nav, main {
 
     #links ul {
         justify-content: center;
-        width: 300px;
+        max-width: 300px;
 
     }
 
@@ -567,9 +567,25 @@ nav, main {
         display: none;
     }
 
-    #links {
-        background-color: yellow;
+    #links ul li a{
+        color: white;
     }
+    
+
+    #links {
+        position: absolute;
+        top: -5%; /* Posição inicial fora da tela */
+        transition: top 0.5s ease-out; /* Animação suave */
+        background-color: #6699CC;
+        border-radius: 10px;
+        border: 1px solid black;
+    }
+    
+
+    #links ul li:not(:last-child) {
+        border-right :0px solid white;
+    }
+    
 
     #burguer-box {
         display: inline-block;
