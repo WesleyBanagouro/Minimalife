@@ -14,6 +14,7 @@
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
+    outline: 1px dashed red;
 }
 
 
@@ -55,20 +56,28 @@ nav, main {
     display: none;
  }
 
+ #navbar-container {
+    background-color: #113545;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    
+
+
+}
 #container-navbar {
     background-color: #113545;
     border-radius: 6px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    width: 100%;
 
 
 }
 
-#container-navbar a{
-    text-decoration: none;
-    color: white;
-}
 
 
 #container-navbar a:hover{
@@ -98,12 +107,20 @@ nav, main {
     flex-direction: row;
     list-style: none;
     padding: 5px;
+    width: 450px;
+    justify-content: center;
 }
 
 
 
 #links ul li{
     padding: 0px 10px 0px 10px;
+
+}
+
+#links ul li a{
+    text-decoration: none;
+    color: white;
 }
 
 #links ul li:not(:last-child) {
@@ -492,7 +509,14 @@ nav, main {
     #links ul {
         justify-content: center;
         max-width: 300px;
+        text-decoration: none;
+        color: white;
 
+    }
+
+    #links ul li a{
+        text-decoration: none;
+        color: white;
     }
 
 
@@ -565,10 +589,18 @@ nav, main {
     
     #links ul {
         display: none;
+        width: 80px;
     }
 
     #links ul li a{
-        color: white;
+        color: var(--letra-minimalife);
+        font-size: 1.1em;
+
+    }
+
+    #links ul li {
+        padding: 10px 5px 10px 5px;
+ 
     }
     
 
@@ -576,9 +608,10 @@ nav, main {
         position: absolute;
         top: -5%; /* Posição inicial fora da tela */
         transition: top 0.5s ease-out; /* Animação suave */
-        background-color: #6699CC;
-        border-radius: 10px;
+        background-color: var(--minimalife);
+        border-radius: 5px;
         border: 1px solid black;
+
     }
     
 
@@ -589,6 +622,7 @@ nav, main {
 
     #burguer-box {
         display: inline-block;
+        position: relative;
     }
     
     #burguer {
@@ -606,6 +640,18 @@ nav, main {
         border-radius: 6px;
         display: flex;
         justify-content: center;
+    }
+
+    #navbar-container {
+        background-color: #113545;
+        border-radius: 6px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        
+    
+    
     }
 
 

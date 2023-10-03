@@ -16,8 +16,8 @@ function clicouBurguer() {
     document.querySelector('#links').style.top = '-100%'; /* Move o #links para fora da tela */
   } else {
     document.querySelector('#links ul').style.display = 'inline-block';
-    document.querySelector('#links').style.top = '90px'; /* Move o #links para a posição inicial */
-    document.querySelector('#links').style.right = '60px'; /* Move o #links para a posição inicial */
+    document.querySelector('#links').style.top = '100%'; /* Move o #links para a posição inicial */
+    document.querySelector('#links').style.left = '100%'; /* Move o #links para a posição inicial */
   }
 }
 
