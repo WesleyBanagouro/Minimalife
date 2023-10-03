@@ -1,18 +1,24 @@
 var botao = document.getElementById('newsletter-button');
+var burguer = document.getElementById('burguer')
 
-function clicou() {
+function clicouNewsletter() {
   var nome = document.getElementById('nome-newsletter').value;
   var email = document.getElementById('email-newsletter').value;
 
   alert(`Olá ${nome}. Obrigado por visitar meu site. O email não foi cadastrado, isso é apenas uma demonstração.`);
 }
 
-botao.addEventListener('click', clicou);
+botao.addEventListener('click', clicouNewsletter);
 
-document.querySelector('.hamburger').addEventListener('click', function() {
-  document.querySelector('#links').style.display = 
-      document.querySelector('#links').style.display === 'none' ? 'block' : 'none';
-});
+function clicouBurguer() {
+  if (document.querySelector('#links ul').style.display == 'block') {
+    document.querySelector('#links ul').style.display = 'none';
+  } else {
+    document.querySelector('#links ul').style.display = 'block';
+  }
+  
+}
 
+burguer.addEventListener('click', clicouBurguer);
   
 

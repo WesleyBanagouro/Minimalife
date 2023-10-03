@@ -13,7 +13,7 @@
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px; 
+    font-size: 16px;
 }
 
 
@@ -62,6 +62,7 @@ nav, main {
     align-items: center;
     justify-content: space-between;
 
+
 }
 
 #container-navbar a{
@@ -88,7 +89,7 @@ nav, main {
 
 #links {
     display: inline-block;
-    margin-right: 200px;
+
 
 }
 
@@ -570,6 +571,10 @@ nav, main {
         background-color: yellow;
     }
 
+    #burguer-box {
+        display: inline-block;
+    }
+    
     #burguer {
         display: block;
         cursor: pointer;
@@ -577,23 +582,14 @@ nav, main {
         font-size: 30px;
         text-align: center;
         margin: auto;
-
     }
+    
 
     #container-navbar {
         background-color: var(--minimalife-logo);
         border-radius: 6px;
         display: flex;
-        align-items: center;
-        justify-content: space-around;
-        text-align: center;
-    
-    }
-
-    #burguer-box {
-        background-color: blue;
-        display: block;
-        width: 1000px;
+        justify-content: center;
     }
 
 
