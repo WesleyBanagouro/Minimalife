@@ -13,11 +13,10 @@ botao.addEventListener('click', clicouNewsletter);
 function clicouBurguer() {
   if (document.querySelector('#links ul').style.display == 'inline-block') {
     document.querySelector('#links ul').style.display = 'none';
-    document.querySelector('#links').style.top = '-100%'; /* Move o #links para fora da tela */
+    document.querySelector('#links').style.height = '0'; /* Move o #links para fora da tela */
   } else {
     document.querySelector('#links ul').style.display = 'inline-block';
-    document.querySelector('#links').style.top = '100%'; /* Move o #links para a posição inicial */
-    document.querySelector('#links').style.left = '100%'; /* Move o #links para a posição inicial */
+    document.querySelector('#links').style.height = '100%'; /* Move o #links para a posição inicial */
   }
 }
 

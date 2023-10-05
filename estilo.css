@@ -14,6 +14,7 @@
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
+    border: 1px dashed red;
 }
 
 
@@ -588,72 +589,75 @@ nav, main {
         width:auto;  
     }
     
-    #links ul {
-        display: none;
-        width: 80px;
-    }
-
-    #links ul li a{
-        color: var(--letra-minimalife);
-        font-size: 1.1em;
-
-    }
-
-    #links ul li {
-        padding: 10px 5px 10px 5px;
- 
-    }
-    
-
     #links {
         position: absolute;
-        top: -5%; /* Posição inicial fora da tela */
-        transition: top 0.5s ease-out; /* Animação suave */
+        height: 0;
+        transition: 0.5s ease-in-out; /* Animação suave */
         background-color: var(--minimalife);
         border-radius: 5px;
         border: 1px solid black;
-
-    }
-    
-
-    #links ul li:not(:last-child) {
+        width: 100%;
+        max-width: 300px;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+      
+      #links ul {
+        width: 100%;
+        display: none;
+      }
+      
+      #links li {
+        width: 100%;
+      }
+      
+      #links ul li a{
+        color: var(--letra-minimalife);
+        font-size: 1.1em;
+      
+      }
+      
+      #links ul li {
+        padding: 10px 5px 10px 5px;
+      
+      }
+      
+      #links ul li:not(:last-child) {
         border-right :0px solid white;
-    }
-    
-
-    #burguer-box {
+      }
+      
+      #burguer-box {
         display: inline-block;
-        position: relative;
-    }
-    
-    #burguer {
+      
+      }
+      
+      #burguer {
         display: block;
         cursor: pointer;
         color: var(--minimalife);
         font-size: 30px;
         text-align: center;
         margin: auto;
-    }
-    
-
-    #container-navbar {
+      }
+      
+      #container-navbar {
         background-color: var(--minimalife-logo);
         border-radius: 6px;
         display: flex;
         justify-content: center;
-    }
-
-    #navbar-container {
+        position: relative;
+      }
+      
+      #navbar-container {
         background-color: #113545;
         border-radius: 6px;
         display: flex;
         align-items: center;
         justify-content: space-between;
         width: 100%;
-        
-    
-    
-    }
+      
+      }
+      
 
 
 
