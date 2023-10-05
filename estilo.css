@@ -69,7 +69,7 @@ nav, main {
 }
 #container-navbar {
     background-color: #113545;
-    border-radius: 6px;
+    border-radius: 7px;
     display: flex;
     align-items: center;
     justify-content: space-between;
