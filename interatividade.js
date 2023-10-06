@@ -14,9 +14,15 @@ function clicouNewsletter() {
 botao.addEventListener('click', clicouNewsletter);
 
 function burguer() {
-  linha1.setAttribute('id', 'linha-1');
-  linha2.setAttribute('id', 'linha-2');
-  linha3.setAttribute('id', 'linha-3');
+  const linhas = document.querySelectorAll('.linha');
+
+for (const linha of linhas) {
+  if (linha.id) {
+    linha.removeAttribute('id');
+  } else {
+    linha.setAttribute('id', 'linha-' + linha.index);
+  }
+}
 }
 
 hamburguer.addEventListener('click', burguer)
