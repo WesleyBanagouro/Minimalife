@@ -102,7 +102,13 @@ nav, main {
     width: 100%;
 }
 
-.links-mobile ul li a:hover{
+.links-mobile ul li{
+    padding: 10px;
+    margin: 10px;
+    transition: opacity 0.2s;
+}
+
+.links-mobile ul li:hover{
     opacity: 0.7;
 }
 
