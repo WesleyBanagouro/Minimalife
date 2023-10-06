@@ -13,21 +13,13 @@ function clicouNewsletter() {
 
 botao.addEventListener('click', clicouNewsletter);
 
-function temId(elemento) {
-  return elemento.id !== null;
+function burguer() {
+  linha1.setAttribute('id', 'linha-1');
+  linha2.setAttribute('id', 'linha-2');
+  linha3.setAttribute('id', 'linha-3');
 }
 
-hamburguer.addEventListener('click', function() {
-  const linhas = document.querySelectorAll('.linha');
-
-  for (const linha of linhas) {
-    if (temId(linha)) {
-      linha.removeAttribute('id');
-    } else {
-      linha.setAttribute('id', 'linha-' + linha.index);
-    }
-  }
-});
+hamburguer.addEventListener('click', burguer)
 
   
 
