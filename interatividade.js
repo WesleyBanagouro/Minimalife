@@ -17,7 +17,7 @@ function temId(elemento) {
   return elemento.id !== null;
 }
 
-function burguer() {
+hamburguer.addEventListener('click', function() {
   const linhas = document.querySelectorAll('.linha');
 
   for (const linha of linhas) {
@@ -27,9 +27,7 @@ function burguer() {
       linha.setAttribute('id', 'linha-' + linha.index);
     }
   }
-}
-
-hamburguer.addEventListener('click', burguer)
+});
 
   
 
