@@ -633,17 +633,20 @@ nav, main {
     }
 
     .hamburguer {
-        display: block;
+        align-items: center;
+        display: flex;
         width: auto;
         height: auto;
-        background-color: white;
+        flex-direction: column;
+        justify-content: center;
     }
 
     .linha {
+        margin: 2px;
+        height: 4px;
         display: block;
-        color: black;
-        width: 30px;
-        height: 10px;
+        background-color: var(--minimalife);
+        width: 24px;
     }
 
       
