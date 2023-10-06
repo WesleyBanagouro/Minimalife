@@ -79,7 +79,7 @@ nav, main {
 }
 
 .links-mobile {
-    background-color: red;
+    background-color: var(--minimalife-logo);
     display: block;
     width: 100%;
     height: auto;
@@ -87,6 +87,17 @@ nav, main {
     top: 100%;
     left: 0;
 }
+
+.links-mobile ul{
+    list-style: none;
+}
+
+.links-mobile ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+
 
 
 #container-navbar a:hover{
@@ -122,7 +133,7 @@ nav, main {
 
 
 
-#links ul li{
+#links ul li, .links-mobile li{
     padding: 0px 10px 0px 10px;
 
 }
