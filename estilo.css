@@ -643,7 +643,8 @@ nav, main {
 
     /* Estilo padrão das linhas */
 .linha {
-    width: 100%;
+    width: 24px;
+    margin: 2px;
     height: 3px;
     background-color: var(--minimalife);
     transition: 0.7s ease;
@@ -662,7 +663,7 @@ nav, main {
 .linha-3.aberto {
     transform: rotate(-45deg) translate(10px, -10px);
 }
-
+    
 
       
       #container-navbar {
