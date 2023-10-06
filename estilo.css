@@ -624,43 +624,7 @@ nav, main {
     #download{
         width:auto;  
     }
-    
-    #links {
-        position: absolute;
-        height: 0;
-        transition: 0.5s ease-in-out; /* Animação suave */
-        background-color: var(--minimalife);
-        border-radius: 5px;
-        border: 1px solid black;
-        width: 100%;
-        max-width: 300px;
-        left: 50%;
-        transform: translateX(-50%);
-      }
-      
-      #links ul {
-        width: 100%;
-        display: none;
-      }
-      
-      #links li {
-        width: 100%;
-      }
-      
-      #links ul li a{
-        color: var(--letra-minimalife);
-        font-size: 1.1em;
-      
-      }
-      
-      #links ul li {
-        padding: 10px 5px 10px 5px;
-      
-      }
-      
-      #links ul li:not(:last-child) {
-        border-right :0px solid white;
-      }
+
       
       #burguer-box {
         display: inline-block;
