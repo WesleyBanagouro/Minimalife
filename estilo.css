@@ -656,6 +656,7 @@ nav, main {
 
     #linha-2 {
         width: 0;
+        transform: translate(10px);
         transition: 0.7s ease;
     }
 
