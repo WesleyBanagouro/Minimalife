@@ -14,9 +14,17 @@ function clicouNewsletter() {
 botao.addEventListener('click', clicouNewsletter);
 
 function burguer() {
-  linha1.setAttribute('id', 'linha-1');
-  linha2.setAttribute('id', 'linha-2');
-  linha3.setAttribute('id', 'linha-3');
+  var linhas = document.querySelectorAll('.linha');
+  for (var i = 0; i < linhas.length; i++) {
+    var linha = linhas[i];
+    var linhaId = 'linha-' + (i + 1);
+
+    if (linha.getAttribute('id') === linhaId) {
+      linha.removeAttribute('id'); // Remove o ID se estiver presente
+    } else {
+      linha.setAttribute('id', linhaId); // Adiciona o ID se não estiver presente
+    }
+  }
 }
 
 hamburguer.addEventListener('click', burguer)
