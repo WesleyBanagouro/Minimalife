@@ -93,6 +93,7 @@ nav, main {
     margin-left: 200px;
 }
 
+
 #logo img{
     border-radius: 10px;
 }
@@ -101,6 +102,10 @@ nav, main {
     display: inline-block;
 
 
+}
+
+.links-mobile {
+    display: none;
 }
 
 #links ul{
@@ -652,18 +657,16 @@ nav, main {
       .oculto {
         height: 0;
         overflow: hidden;
-        transition: height 0.7s ease-in-out;
       }
       
       /* Estilo quando visível */
       .links-mobile {
         background-color: var(--minimalife-logo);
-        display: block;
         width: 100%;
         position: absolute;
         top: 100%;
-        left: 0;
-        transition: height 0.7s ease-in-out;
+        display: block;
+        border-radius: 3px;
       }
       
       .links-mobile ul {
