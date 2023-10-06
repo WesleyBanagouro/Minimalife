@@ -622,24 +622,30 @@ nav, main {
     }
 
 
+    
+
     #download{
         width:auto;  
     }
 
-      
-      #burguer-box {
-        display: inline-block;
-      
-      }
-      
-      #burguer {
+    #links {
+        display: none;
+    }
+
+    .hamburguer {
         display: block;
-        cursor: pointer;
-        color: var(--minimalife);
-        font-size: 30px;
-        text-align: center;
-        margin: auto;
-      }
+        width: auto;
+        height: auto;
+        background-color: white;
+    }
+
+    .linha {
+        display: block;
+        color: black;
+        width: 30px;
+        height: 10px;
+    }
+
       
       #container-navbar {
         background-color: var(--minimalife-logo);
@@ -659,6 +665,41 @@ nav, main {
       
       }
       
+      .links-mobile {
+        background-color: var(--minimalife-logo);
+        display: block;
+        width: 100%;
+        height: 30vh;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        transition: height 2s ease-in-out;
+    }
+    
+    .links-mobile ul{
+        list-style: none;
+        text-align: center;
+    }
+    
+    .links-mobile ul li a{
+        text-decoration: none;
+        color: white;
+        padding: 10px;
+        transition: opacity 0.2s;
+        background-color: #071322;
+    }
+    
+    .links-mobile ul li{
+        background-color: #071322;
+        padding: 10px;
+        margin: 10px;
+        transition: opacity 0.2s;
+        cursor: pointer;
+    }
+    
+    .links-mobile ul li:hover{
+        opacity: 0.7;
+    }
 
 
 
@@ -760,7 +801,6 @@ nav, main {
     align-items: center;
     display: flex;
     height: 100px;
-    margin: 20px;
 
 }
 #ebook img{
