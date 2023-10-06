@@ -90,11 +90,20 @@ nav, main {
 
 .links-mobile ul{
     list-style: none;
+    text-align: center;
 }
 
 .links-mobile ul li a{
     text-decoration: none;
     color: white;
+    padding: 10px;
+    transition: opacity 0.2s;
+    background-color: #071322;
+    width: 100%;
+}
+
+.links-mobile ul li a:hover{
+    opacity: 0.7;
 }
 
 
@@ -133,7 +142,7 @@ nav, main {
 
 
 
-#links ul li, .links-mobile li{
+#links ul li {
     padding: 0px 10px 0px 10px;
 
 }
