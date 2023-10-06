@@ -652,16 +652,16 @@ nav, main {
 
 /* Estilo quando o menu está aberto (forma "X") */
 .linha-1.aberto {
-    transform: rotate(45deg) translate(10px, 10px);
+    transform: rotate(45deg) translate(0px, 10px);
 }
 
 .linha-2.aberto {
     width: 0;
-    transform: translate(0px, 10px);
+    transform: translate(0px, 0px);
 }
 
 .linha-3.aberto {
-    transform: rotate(-45deg) translate(10px, -10px);
+    transform: rotate(-45deg) translate(0px, -10px);
 }
     
 
