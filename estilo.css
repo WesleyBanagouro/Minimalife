@@ -82,7 +82,7 @@ nav, main {
     background-color: var(--minimalife-logo);
     display: block;
     width: 100%;
-    height: auto;
+    height: 700px;
     position: absolute;
     top: 100%;
     left: 0;
