@@ -641,29 +641,28 @@ nav, main {
         justify-content: center;
     }
 
-    .linha {
-        margin: 2px;
-        height: 3px;
-        display: block;
-        background-color: var(--minimalife);
-        width: 24px;
-    }
+    /* Estilo padrão das linhas */
+.linha {
+    width: 100%;
+    height: 3px;
+    background-color: var(--minimalife);
+    transition: 0.7s ease;
+}
 
-    #linha-1 {
-        transform: rotate(45deg) translate(10px, 10px);
-        transition: 0.7s ease;
-    }
+/* Estilo quando o menu está aberto (forma "X") */
+.linha-1.aberto {
+    transform: rotate(45deg) translate(10px, 10px);
+}
 
-    #linha-2 {
-        width: 0;
-        transform: translate(0px, 10px);
-        transition: 0.7s ease;
-    }
+.linha-2.aberto {
+    width: 0;
+    transform: translate(0px, 10px);
+}
 
-    #linha-3 {
-        transform: rotate(-45deg);
-        transition: 0.7s ease;
-    }
+.linha-3.aberto {
+    transform: rotate(-45deg) translate(10px, -10px);
+}
+
 
       
       #container-navbar {
