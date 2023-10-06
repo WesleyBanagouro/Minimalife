@@ -124,6 +124,13 @@ nav, main {
     color: white;
 }
 
+.links-mobile {
+    background-color: blue;
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
 #links ul li:not(:last-child) {
     border-right :2px solid white;
 }
