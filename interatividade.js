@@ -24,7 +24,7 @@ function burguer() {
 var hamburguer = document.querySelector('.menu-toggle');
 hamburguer.addEventListener('click', burguer);
 
-va linksMobile = document.querySelector('.links-mobile');
+var linksMobile = document.querySelector('.links-mobile');
 
 hamburguer.addEventListener('click', function () {
     linksMobile.classList.toggle('oculto');
