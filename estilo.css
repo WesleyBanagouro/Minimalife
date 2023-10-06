@@ -75,10 +75,18 @@ nav, main {
     justify-content: space-between;
     width: 100%;
     max-width: 2000px;
-
-
+    position: relative;
 }
 
+.links-mobile {
+    background-color: blue;
+    display: block;
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 100%;
+    left: 0;
+}
 
 
 #container-navbar a:hover{
@@ -124,12 +132,7 @@ nav, main {
     color: white;
 }
 
-.links-mobile {
-    background-color: blue;
-    display: block;
-    width: 100%;
-    height: auto;
-}
+
 
 #links ul li:not(:last-child) {
     border-right :2px solid white;
