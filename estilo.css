@@ -647,15 +647,21 @@ nav, main {
         display: block;
         background-color: var(--minimalife);
         width: 24px;
-        transition: 2s;
     }
 
-    #linha-1, #linha-3 {
-        transform: rotate(45deg);
+    #linha-1 {
+        transform: rotate(45deg) translate(10px, 10px);
+        transition: 0.7s ease;
     }
 
     #linha-2 {
         width: 0;
+        transition: 0.7s ease;
+    }
+
+    #linha-3 {
+        transform: rotate(-45deg);
+        transition: 0.7s ease;
     }
 
       
