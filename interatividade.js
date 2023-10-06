@@ -16,19 +16,13 @@ botao.addEventListener('click', clicouNewsletter);
 function burguer() {
   var linhas = document.querySelectorAll('.linha');
   
-  if (linhas[0].hasAttribute('id')) {
-    linhas[0].removeAttribute('id');
-    linhas[1].removeAttribute('id');
-    linhas[2].removeAttribute('id');
-  } else {
-    linhas[0].setAttribute('id', 'linha-1');
-    linhas[1].setAttribute('id', 'linha-2');
-    linhas[2].setAttribute('id', 'linha-3');
-  }
+  linhas[0].classList.toggle('aberto');
+  linhas[1].classList.toggle('aberto');
+  linhas[2].classList.toggle('aberto');
 }
 
-
-hamburguer.addEventListener('click', burguer)
+var hamburguer = document.querySelector('.menu-toggle');
+hamburguer.addEventListener('click', burguer);
 
   
 
