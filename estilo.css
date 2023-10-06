@@ -643,10 +643,19 @@ nav, main {
 
     .linha {
         margin: 2px;
-        height: 4px;
+        height: 3px;
         display: block;
         background-color: var(--minimalife);
         width: 24px;
+        transition: 2s;
+    }
+
+    #linha-1, #linha-3 {
+        transform: rotate(45deg);
+    }
+
+    #linha-2 {
+        width: 0;
     }
 
       
@@ -654,7 +663,7 @@ nav, main {
         background-color: var(--minimalife-logo);
         border-radius: 6px;
         display: flex;
-        justify-content: center;
+        justify-content: space-around;
         position: relative;
       }
       
@@ -804,8 +813,9 @@ nav, main {
     align-items: center;
     display: flex;
     height: 100px;
-
+    margin: 0;
 }
+
 #ebook img{
     height :auto ;
     width : 50% ;

@@ -1,5 +1,8 @@
 var botao = document.getElementById('newsletter-button');
-var burguer = document.getElementById('burguer')
+var linha1 = document.querySelector('.linha-1');
+var linha2 = document.querySelector('.linha-2');
+var linha3 = document.querySelector('.linha-3');
+var hamburguer = document.querySelector('.hamburguer')
 
 function clicouNewsletter() {
   var nome = document.getElementById('nome-newsletter').value;
@@ -10,17 +13,13 @@ function clicouNewsletter() {
 
 botao.addEventListener('click', clicouNewsletter);
 
-function clicouBurguer() {
-  if (document.querySelector('#links ul').style.display == 'inline-block') {
-    document.querySelector('#links ul').style.display = 'none';
-    document.querySelector('#links').style.height = '0'; /* Move o #links para fora da tela */
-  } else {
-    document.querySelector('#links ul').style.display = 'inline-block';
-    document.querySelector('#links').style.height = '100%'; /* Move o #links para a posição inicial */
-  }
+function burguer() {
+  linha1.setAttribute('id', 'linha-1');
+  linha2.setAttribute('id', 'linha-2');
+  linha3.setAttribute('id', 'linha-3');
 }
 
-burguer.addEventListener('click', clicouBurguer);
+hamburguer.addEventListener('click', burguer)
 
   
 
