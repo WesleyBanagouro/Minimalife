@@ -13,16 +13,20 @@ function clicouNewsletter() {
 
 botao.addEventListener('click', clicouNewsletter);
 
+function temId(elemento) {
+  return elemento.id !== null;
+}
+
 function burguer() {
   const linhas = document.querySelectorAll('.linha');
 
-for (const linha of linhas) {
-  if (linha.id) {
-    linha.removeAttribute('id');
-  } else {
-    linha.setAttribute('id', 'linha-' + linha.index);
+  for (const linha of linhas) {
+    if (temId(linha)) {
+      linha.removeAttribute('id');
+    } else {
+      linha.setAttribute('id', 'linha-' + linha.index);
+    }
   }
-}
 }
 
 hamburguer.addEventListener('click', burguer)
